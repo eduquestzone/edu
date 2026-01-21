@@ -47,37 +47,56 @@
     <link rel="canonical" href="https://eduquestzone.com/">
     <meta name="robots" content="index, follow">
     <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
-     <script type="application/ld+json">
+      <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": ["EducationalOrganization", "OnlineLearningPlatform"],
-  "@id": "https://eduquestzone.com/#organization",
-  "name": "EduQuestZone",
-  "alternateName": "EduQuestZone – Free Online Exam Preparation Platform",
-  "url": "https://eduquestzone.com",
-  "logo": {
-    "@type": "ImageObject",
-    "url": "https://eduquestzone.com/assets/images/brand/logo/logo.png"
-  },
-  "description": "EduQuestZone is a global online exam preparation platform offering free mock tests, MCQs, quizzes, and practice exams for UPSC, SSC, Banking, CAT, GMAT, GRE, IELTS, TOEFL, and other competitive exams.",
-  "foundingLocation": {
-    "@type": "Place",
-    "address": {
-       "@type": "PostalAddress",
-      "addressCountry": "IN"
+  "@graph": [
+    {
+      "@type": ["EducationalOrganization", "OnlineLearningPlatform"],
+      "@id": "https://eduquestzone.com/#organization",
+      "name": "EduQuestZone",
+      "alternateName": "EduQuestZone – Free Online Exam Preparation Platform",
+      "url": "https://eduquestzone.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://eduquestzone.com/assets/images/brand/logo/logo.png"
+      },
+      "description": "EduQuestZone is a global online exam preparation platform trusted by learners worldwide for free mock tests, MCQs, quizzes, and practice exams for UPSC, SSC, Banking, CAT, GMAT, GRE, IELTS, TOEFL, SAT, and other competitive exams."
+      "foundingLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "IN"
+        }
+      },
+      "areaServed": "Worldwide",
+      "sameAs": [
+        "https://t.me/EduQuestZone",
+        "https://whatsapp.com/channel/0029VbAqFLSGpLHXveLikY0f",
+        "https://www.linkedin.com/company/eduquestzone",
+        "https://x.com/eduquestzone",
+        "https://www.youtube.com/@eduquestzone",
+        "https://www.instagram.com/eduquestzone"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://eduquestzone.com/#website",
+      "url": "https://eduquestzone.com",
+      "name": "EduQuestZone",
+      "publisher": {
+        "@id": "https://eduquestzone.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://eduquestzone.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     }
-  },
-  "areaServed": "Worldwide",
-  "sameAs": [
-    "https://t.me/EduQuestZone",
-    "https://whatsapp.com/channel/0029VbAqFLSGpLHXveLikY0f",
-    "https://www.linkedin.com/company/eduquestzone",
-    "https://x.com/eduquestzone",
-    "https://www.youtube.com/@eduquestzone",
-    "https://www.instagram.com/eduquestzone"
   ]
 }
 </script>
+
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7PCTM25RX"></script>
 <script>
